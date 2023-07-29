@@ -10,9 +10,9 @@ import fs from 'fs';
 const links = []
 
 
-const title = "Lucide";
-const socialTitle = "Lucide Icons";
-const description = "Beautiful & consistent icon toolkit made by the community."
+const title = "IconsGuild";
+const socialTitle = "IconsGuild Icons";
+const description = "Beautiful, reliable & consistent icon toolkit made by the ConvoyChat Authors."
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -41,7 +41,7 @@ export default defineConfig({
   head: [
     [ 'script', {
       src: 'https://plausible.io/js/script.js',
-      'data-domain': 'lucide.dev',
+      'data-domain': 'iconsguild.vercel.app',
       defer: ''
     }],
     [ 'meta', {
@@ -66,11 +66,11 @@ export default defineConfig({
     }],
     [ 'meta', {
       property:"og:url",
-      content:"https://lucide.dev"
+      content:"https://iconsguild.vercel.app"
     }],
     [ 'meta', {
       property:"og:image",
-      content: "https://lucide.dev/og.png"
+      content: "https://iconsguild.vercel.app/og.png"
     }],
     [ 'meta', {
       property:"og:image:width",
@@ -98,7 +98,7 @@ export default defineConfig({
     }],
     [ 'meta', {
       property:"twitter:image",
-      content:"https://lucide.dev/og.png"
+      content:"https://iconsguild.vercel.app/og.png"
     }],
   ],
   themeConfig: {
@@ -115,15 +115,15 @@ export default defineConfig({
     ],
     sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/lucide-icons/lucide' },
+      { icon: 'github', link: 'https://github.com/c-eo/iconsguild' },
       { icon: 'discord', link: 'https://discord.gg/EH6nSts' }
     ],
     footer: {
-      message: 'Released under the ISC License.',
-      copyright: `Copyright © ${new Date().getFullYear()} Lucide Contributors`
+      message: 'Released under the MIT License.',
+      copyright: `Copyright © ${new Date().getFullYear()} ConvoyChat Authors`
     },
     editLink: {
-      pattern: 'https://github.com/lucide-icons/lucide/edit/main/docs/:path'
+      pattern: 'https://github.com/c-eo/iconsguild/edit/main/docs/:path'
     },
   },
   transformHtml: (_, id, { pageData }) => {
@@ -146,7 +146,7 @@ export default defineConfig({
   },
   buildEnd: async ({ outDir }) => {
     const sitemap = new SitemapStream({
-      hostname: 'https://lucide.dev/'
+      hostname: 'https://iconsguild.vercel.app/'
     })
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
     sitemap.pipe(writeStream)
