@@ -2,6 +2,6 @@
 aside: false
 ---
 
-# Lucide License
+# IconsGuild License
 
 <!--@include: ../LICENSE -->

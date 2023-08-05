@@ -3,7 +3,7 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-The following is a set of guidelines for contributing to Lucide. Feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to IconsGuild. Feel free to propose changes to this document in a pull request.
 
 ## Pull Requests
 
@@ -23,7 +23,7 @@ Guidelines for pull requests:
 
 #### Guidelines
 
-Please make sure you follow the icon guidelines, that should be followed to keep quality and consistency when making icons for Lucide.
+Please make sure you follow the icon guidelines, that should be followed to keep quality and consistency when making icons for IconsGuild.
 
 Read it here: [ICON_GUIDELINES](https://lucide.dev/docs/icon-design-guide).
 
@@ -50,11 +50,11 @@ Seperate them by two PRs; 'pr-01' `arrow`, `arrow-down` and 'pr-02' `bicycle`.
 
 Before creating an icon request, please search to see if someone has requested the icon already. If there is an open request, please add a :+1:.
 
-If the icon has not already been requested, [create an issue](https://github.com/lucide-icons/lucide/issues/new?title=Icon%20Request:) with a title of `Icon request: <icon name>` and add as much information as possible.
+If the icon has not already been requested, [create an issue](https://github.com/c-eo/iconsguild/issues/new?title=Icon%20Request:) with a title of `Icon request: <icon name>` and add as much information as possible.
 
 ### Icon Requests from Feather
 
-If you are a designer who wants to contribute to Lucide but you don't know what icons to work on, then have a look at the Requests from Feather. All open, unfinished and valid requests can be found in [Feather Icon Requests](https://github.com/lucide-icons/lucide/issues/119).
+If you are a designer who wants to contribute to IconsGuild but you don't know what icons to work on, then have a look at the Requests from Feather. All open, unfinished and valid requests can be found in [Feather Icon Requests](https://github.com/c-eo/iconsguild/issues/119).
 
 ## Development
 
@@ -176,17 +176,17 @@ The lucide.dev website is using [vitepress](https://vitepress.dev/) to generate 
 
 ## Documentation
 
-The documentation files are located in the [docs](https://github.com/lucide-icons/lucide/tree/main/docs) directory. All these markdown files will be loaded in the build of the lucide.dev website.
+The documentation files are located in the [docs](https://github.com/c-eo/iconsguild/tree/main/docs) directory. All these markdown files will be loaded in the build of the lucide.dev website.
 
 Feel free to write, adjust or add new markdown files to improve our documentation.
 
 ## Support
 
-If you need any help or have problems with you contribution. Please don't hesitate to contact the Lucide Community, you can find us on [Github](https://github.com/lucide-icons/lucide) and [Discord](https://discord.gg/EH6nSts).
+If you need any help or have problems with you contribution. Please don't hesitate to contact the IconsGuild Community, you can find us on [Github](https://github.com/c-eo/iconsguild) and [Discord](https://discord.gg/EH6nSts).
 
 ## Credits
 
-Thank you to all the people who already contributed to Lucide!
+Thank you to all the people who already contributed to IconsGuild!
 
-<a href="https://github.com/lucide-icons/lucide/graphs/contributors">
+<a href="https://github.com/c-eo/iconsguild/graphs/contributors">
 <img src="https://opencollective.com/lucide-icons/contributors.svg?width=890" /></a>

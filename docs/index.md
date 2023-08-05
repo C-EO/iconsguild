@@ -11,7 +11,7 @@ hero:
   name: |
     Beautiful, reliable &
     consistent icons
-  tagline: Made by the ConvoyChat Authors.
+  tagline: Made by the IconsGuild Authors.
   image:
     src: /favicon.svg
     alt: VueUse

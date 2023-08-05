@@ -1,7 +1,7 @@
 {
-  "name": "@lucide/docs",
+  "name": "@iconsguild/docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Official Website for IconsGuild",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,8 +21,8 @@
     "build": "pnpm run \"/^prebuild:.*/\" && pnpm build:api && pnpm build:docs && pnpm postbuild:vercelJson",
     "preview": "node .output/server/index.mjs"
   },
-  "author": "Eric Fennis",
-  "license": "ISC",
+  "author": "Dennis Sebalemba <dennis.sebalemba@gmail.com>",
+  "license": "(MIT OR ISC)",
   "devDependencies": {
     "h3": "^1.6.4",
     "nitropack": "^2.4.1",
