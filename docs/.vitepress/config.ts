@@ -120,7 +120,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: `Copyright © ${new Date().getFullYear()} ConvoyChat Authors`
+      copyright: `Copyright © ${new Date().getFullYear()} IconsGuild Authors`
     },
     editLink: {
       pattern: 'https://github.com/c-eo/iconsguild/edit/main/docs/:path'
