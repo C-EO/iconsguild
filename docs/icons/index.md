@@ -6,7 +6,7 @@ sidebar: true
 head:
   - - link
     - rel: canonical
-      content: https://lucide.dev/icons/
+      content: https://iconsguild.vercel.app/icons/
 ---
 
 <script setup>
